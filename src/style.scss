@@ -1,0 +1,35 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    input{
+        padding: 10px;
+        color: #57534e;
+        border: 2px solid #a3a3a3;
+        border-radius: 8px;
+    }
+    
+    button{
+        padding: 10px;
+        color: #fff;
+        border-radius: 8px;
+        background-color: #a855f7;
+        border: none;
+        transition: 1s;
+    }
+
+    button:hover{
+        filter: brightness(0.9);
+        cursor: pointer;
+    }
+}
